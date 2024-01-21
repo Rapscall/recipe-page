@@ -1,0 +1,128 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Outfit,sans-serif;
+    line-height: 1.6;
+}
+
+body{
+    margin:3% 25%;
+    background-color:antiquewhite ;
+}
+
+.white{
+    background-color: white;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    font-weight:100;
+    padding: 30px;
+    color:rgb(53, 53, 53);
+}
+
+.young{
+    font-family: 'Young Serif', serif;
+}
+
+.grey{
+    color:rgb(112, 112, 112);
+}
+
+#intro{
+    padding: 0px 30px 30px;
+    
+}
+
+#prepare{
+    padding: 15px 45px 10px;
+    color: rgb(160, 112, 160);
+}
+
+#prep>li{
+    margin: 0px 30px 5px;
+    padding-left:20px ;
+    max-width: 70%;
+}
+
+span{
+    font-weight: 800;
+}
+
+.brown{
+    color:rgb(165, 131, 108)
+}
+
+#ingredients{
+    padding: 40px 20px 20px;
+}
+
+#ing>li{
+    padding: 5px 10px;
+}
+
+#instructions{
+    padding: 45px 30px 10px;
+
+}
+
+ol>li{
+    padding: 5px 15px;
+    margin-left: 10px;
+}
+
+#nutrition{
+    padding: 60px 30px 10px;
+}
+
+#table{
+    padding: 10px 30px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#grid>.brown{
+    font-weight: 800;
+    padding: 10px 0;
+}
+
+.bord{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+@media only screen and (min-width:700px){
+    #container{
+        border-radius: 20px;
+        padding: 15px;
+        
+    }
+    img{
+        margin: 3%;
+        overflow:hidden;
+        border-radius: 15px;
+        display: inline-block;
+        background-color: black;
+        width: 90%;
+
+    
+    }
+    #grid{
+        grid-template-columns: auto auto;
+        text-align: left;
+    }
+    .bord{
+        border: none;
+    }
+}
